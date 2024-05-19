@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divblock{
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+    /* border-width:2px  ;
+    border-style: dashed;
+    border-color: brown; */
+    border: 2px dashed rgb(196, 227, 18);
+    /* text-align: center; */
+    border-radius: 10px;  
+    /* padding-left:20px ; */
+    /* padding: 20px; */   
+    padding: 5px 10px 15px 20px;
+           /* Top right bottom left */
+    /* margin-top: 50px; */
+    /* margin: 50px; */
+    margin: 5px 10px 15px 20px;
+           /*Top right bottom left  */
+
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: darkorchid;
+    border: 2px solid;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+}
+
+#box2{
+    background-color: blue;
+    position: relative;
+    top: 20px;
+
+}
+
+#box3{
+    background-color: red;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    bottom: 15px
+}
+
+#box4{
+    background-color: bisque;
+    position: fixed;
+    right: 200px;
+    top: 10px;
+}
+
+#box5{
+    background-color: yellowgreen;
+    /* position: sticky; */
+    background-image: url('artem-balashevsky-mlIFnRdWtyE-unsplash.jpg');
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    background-size: cover;
+}

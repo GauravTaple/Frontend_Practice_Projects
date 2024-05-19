@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+<body>
+    <h2>Amazing Images</h2>
+    <ul id="images">
+        <li><img id="first" src="https://source.unsplash.com/TCpfPxKPOvk/200x200" alt="error"/></li>
+        <li><img id="second" src="https://source.unsplash.com/WLUHO9A_xik/200x200" alt="error"/></li>
+        <li><img id="third" src="https://source.unsplash.com/featured?technology" alt="error loading" width="200" height="200"/></li>
+    </ul>
+
+    <script>
+        document.querySelector('#images').addEventListener('click',function(e){
+            console.log(e,'e');
+            // console.log(e.target,'target');
+            // console.log(e.target.tagName);
+            console.log(e.target.parentNode,'parentNode');
+            let removeIt = e.target.parentNode
+            removeIt.remove();                               // 1st way
+            // removeIt.parentNode.removeChild(removeIt);    // 2nd way
+
+
+        },false)
+    </script>
+</body>
+</html>

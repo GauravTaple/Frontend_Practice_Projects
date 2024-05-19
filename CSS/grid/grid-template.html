@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template Property</title>
+    
+</head>
+
+
+<body>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template: 80px 300px / auto auto 190px;
+            background-color: blue;
+            padding: 10px;
+        }
+    
+        .grid-items{
+            background-color: brown;
+            border: 3px solid white;
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+    <h1>Grid Template Property</h1>
+
+    <div class="grid-container">
+        <div class="grid-items">Item A</div>
+        <div class="grid-items">Item B</div>
+        <div class="grid-items">Item C</div>
+        <div class="grid-items">Item D</div>
+        <div class="grid-items">Item E</div>
+        <div class="grid-items">Item F</div>
+    </div>
+    
+</body>
+</html>
