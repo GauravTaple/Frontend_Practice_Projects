@@ -1,0 +1,49 @@
+/* // universal selector */
+*{
+    color: darkorange;  
+}
+
+/* // element selector */
+h1{
+    color: blue;
+}
+p{
+    color: rgb(219, 39, 19);
+    background-color: #00ff00;
+}
+button{
+    color: blueviolet;
+    background-color: black;
+}
+body{                                 
+    background-color: rgb(173, 161, 173)
+}
+
+/* // id selector */
+#head1{
+    color: cyan;            
+}
+
+/* // class selector */
+.head2{
+    background-color: #c875c8;        
+}
+
+/* --------------------------------------- */
+
+#heading1{
+    text-align: center;
+    text-decoration: yellow wavy underline;
+    font-weight: normal;  
+    /* font-weight: 200; */
+    
+}
+
+#para{
+    text-align: right;
+    text-decoration: overline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+}

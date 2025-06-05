@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Blob</title>
+</head>
+<body>
+    <a download="javatpoint.pdf" href='#'  
+        id="link">Download file</a> 
+
+        <script>
+            let abc = new Blob(["Javatpoint"],
+            {type:'application/pdf'});
+            link.href = URL.createObjectURL(abc);
+        </script>
+</body>
+</html>
